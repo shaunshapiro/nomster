@@ -35,6 +35,9 @@ end
 #Bootstrap addon
 gem 'bootstrap-sass', '~> 3.3.4'
 
+#add pagination per lesson 12
+gem 'will_paginate', '~> 3.0.6'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

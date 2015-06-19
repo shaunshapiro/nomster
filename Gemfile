@@ -41,6 +41,9 @@ gem 'will_paginate', '~> 3.0.6'
 #add simple_form per lesson 13
 gem 'simple_form'
 
+#add user authentication via lesson 16
+gem 'devise', '>= 3.2.4'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

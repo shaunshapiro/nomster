@@ -4,4 +4,10 @@
   <i><%= @place.address %></i>
   <br/><br/>
   <p><%= @place.description %></p>
+  
+  <div class="pull-right">
+  	<%= link_to 'Edit', edit_place_path(@place), :class => 'btn btn-primary' %>
+  	<br/><br/>
+  	<li style="list-style-type: none;"><%= link_to 'back', root_path, :class => 'btn btn-primary' %></li>
+  </div>
 </div>

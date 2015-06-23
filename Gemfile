@@ -44,6 +44,12 @@ gem 'simple_form'
 #add user authentication via lesson 16
 gem 'devise', '>= 3.2.4'
 
+#add geocoding for map data per lesson 29
+gem 'geocoder'
+
+#add figaro for securely passing through api key for geocoder
+gem 'figaro', '>= 1.0.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

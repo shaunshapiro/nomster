@@ -42,6 +42,11 @@ gem 'will_paginate', '~> 3.0.6'
 #add simple_form per lesson 13
 gem 'simple_form'
 
+#add image resizing
+gem 'mini_magick'
+
+gem 'protected_attributes'
+
 #add user authentication via lesson 16
 gem 'devise', '>= 3.2.4'
 
@@ -50,6 +55,9 @@ gem 'geocoder'
 
 #add figaro for securely passing through api key for geocoder
 gem 'figaro', '>= 1.0.0'
+
+#add carrierwave for image uploading
+gem 'carrierwave'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

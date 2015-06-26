@@ -42,6 +42,9 @@ gem 'will_paginate', '~> 3.0.6'
 #add simple_form per lesson 13
 gem 'simple_form'
 
+#add fog for amazon S3 config with carrierewave and heroku
+gem "fog", "~> 1.3.1"
+
 #add image resizing
 #gem 'mini_magick'
 

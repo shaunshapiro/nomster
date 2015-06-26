@@ -4,5 +4,5 @@ class Photo < ActiveRecord::Base
 
 	mount_uploader :picture, PictureUploader 
 
-	attr_accessible :picture, :caption
+	#attr_accessible :picture, :caption  
 end

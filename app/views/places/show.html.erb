@@ -36,7 +36,7 @@
     <h1 class="text-center">Photos</h1>
     <div class="clear"></div>
     <br/><br/>  
-    <% @place.photos.each do |photo| %>
+    <%= @place.photos.each do |photo| %>
       <div class="col-xs-12 col-sm-6 col-md-3 center-block text-center">
         <%= image_tag photo.picture %>
         <div class="clear"><%= photo.caption %></div>

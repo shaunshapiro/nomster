@@ -19,7 +19,9 @@ class PictureUploader < CarrierWave::Uploader::Base
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
-
+  #uploader = PictureUploader.new
+  #uploader.store!(@picture)
+  #uploader.retrieve_from_store!('@picture.png')
 
  
 
